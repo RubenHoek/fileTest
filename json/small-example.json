@@ -1,0 +1,271 @@
+{
+    "Areas": [
+      {
+        "Name": "B",
+        "Zones": [
+          "B1", 
+          "B2"
+        ]
+      },
+      {
+        "Name": "A",
+        "Zones": [
+          "A1",
+	  "A2"
+        ]
+      }
+    ],
+    "Zones": [
+      {
+        "Name": "B1",
+        "AreaName": "Pipe deck",
+        "LabelPosition": {
+          "X": 200,
+          "Y": 1300
+        },
+        "IconPosition": {
+          "X": -500,
+          "Y": 350
+        },
+        "Outline": [
+          {
+            "X": 881,
+            "Y": 461
+          },
+          {
+            "X": 881,
+            "Y": 1176
+          },
+          {
+            "X": 128,
+            "Y": 1176
+          },
+          {
+            "X": 128,
+            "Y": 463
+          }
+        ]
+      },      {
+        "Name": "B2",
+        "AreaName": "Pipe deck",
+        "LabelPosition": {
+          "X": 1125,
+          "Y": 1300
+        },
+        "IconPosition": {
+          "X": 200,
+          "Y": 350
+        },
+        "Outline": [
+          {
+            "X": 1881,
+            "Y": 461
+          },
+          {
+            "X": 1881,
+            "Y": 1176
+          },
+          {
+            "X": 881,
+            "Y": 1176
+          },
+          {
+            "X": 881,
+            "Y": 463
+          }
+        ]
+      },
+      {
+        "Name": "A1",
+        "AreaName": "Drill floor",
+        "id": 0,
+        "zoneState": 0,
+        "LabelPosition": {
+          "X": 2770,
+          "Y": 1300
+        },
+        "IconPosition": {
+          "X": 2820,
+          "Y": 350
+        },
+        "Outline": [
+          {
+            "X": 3970,
+            "Y": 467
+          },
+          {
+            "X": 3970,
+            "Y": 1302
+          },
+          {
+            "X": 2748,
+            "Y": 1302
+          },
+          {
+            "X": 2748,
+            "Y": 977
+          },
+          {
+            "X": 2748,
+            "Y": 683
+          },
+          {
+            "X": 2748,
+            "Y": 467
+          },
+          {
+            "X": 2895,
+            "Y": 467
+          },
+          {
+            "X": 2895,
+            "Y": 123
+          },
+          {
+            "X": 3868,
+            "Y": 123
+          },
+          {
+            "X": 3868,
+            "Y": 467
+          }
+        ]
+      },
+      {
+        "Name": "A2",
+        "AreaName": "Drill floor",
+        "id": 0,
+        "zoneState": 0,
+        "LabelPosition": {
+          "X": 1870,
+          "Y": 1300
+        },
+        "IconPosition": {
+          "X": 1620,
+          "Y": 350
+        },
+        "Outline": [
+          {
+            "X": 2748,
+            "Y": 1302
+          },
+          {
+            "X": 2748,
+            "Y": 467
+          },
+          {
+            "X": 2248,
+            "Y": 467
+          },
+          {
+            "X": 2248,
+            "Y": 1302
+          }
+        ]
+      }
+    ],
+    "Cameras": [
+      {
+        "Name": "Cam 1",
+        "VmsCameraId": 37,
+        "Location": {
+          "X": 2800,
+          "Y": 1000
+        }
+      },
+      {
+        "Name": "Cam 3",
+        "VmsCameraId": 39,
+        "Location": {
+          "X":3400,
+          "Y": 1350
+        }
+      },
+      {
+        "Name": "Cam 4",
+        "VmsCameraId": 40,
+        "Location": {
+          "X": 3900,
+          "Y": 900
+        }
+      },
+      {
+        "Name": "Cam 5",
+        "VmsCameraId": 41,
+        "Location": {
+          "X": 3900,
+          "Y": 600
+        }
+      },
+      {
+        "Name": "Cam 6",
+        "VmsCameraId": 42,
+        "Location": {
+          "X": 2850,
+          "Y": 380
+        }
+      },
+      {
+        "Name": "Cam 7",
+        "VmsCameraId": 43,
+        "Location": {
+          "X": 1300,
+          "Y": 700
+        }
+      },
+      {
+        "Name": "Cam 8",
+        "VmsCameraId": 44,
+        "Location": {
+          "X": 1300,
+          "Y": 900
+        }
+      },
+      {
+        "Name": "Cam 9",
+        "VmsCameraId": 45,
+        "Location": {
+          "X": 650,
+          "Y": 800
+        }
+      },
+      {
+        "Name": "Cam 10",
+        "VmsCameraId": 46,
+        "Location": {
+          "X": 250,
+          "Y": 800
+        }
+      },
+      {
+        "Name": "Cam 11",
+        "VmsCameraId": 47,
+        "Location": {
+          "X": 3100,
+          "Y": 1000
+        }
+      }
+    ],
+    "DropshedDimension": {
+        "Width": 123,
+        "Length": 123
+      },
+    "Settings": [
+      {
+        "Name": "VmsIpAddress",
+        "ValueString": "192.168.20.140"
+      },
+      {
+        "Name": "UseTestEquipmentLightsController",
+        "ValueString": "true"
+      },
+      {
+        "Name": "LightBlinkTimespan",
+        "ValueString": "00:00:00.7"
+      },
+      {
+        "Name": "MqttBrokerServer",
+        "ValueString": "172.17.0.1"
+      }
+	]
+}

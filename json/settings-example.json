@@ -1,0 +1,40 @@
+{
+    "Areas": [
+      {
+        "Name": "B",
+        "Zones": [
+          "B1", 
+          "B2"
+        ]
+      },
+      {
+        "Name": "A",
+        "Zones": [
+          "A1",
+	  "A2"
+        ]
+      }
+    ],
+    "Settings": [
+      {
+        "Name": "VmsIpAddress",
+        "ValueString": "192.168.20.140"
+      },
+      {
+        "Name": "UseTestEquipmentLightsController",
+        "ValueString": "true"
+      },
+      {
+        "Name": "LightBlinkTimespan",
+        "ValueString": "00:00:00.7"
+      },
+      {
+        "Name": "MqttBrokerServer",
+        "ValueString": "172.17.0.1"
+      },
+      {
+        "Name": "Hi",
+        "ValueString": "You"
+      }
+	]
+}
