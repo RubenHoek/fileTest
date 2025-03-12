@@ -36,5 +36,9 @@
         "Name": "Hi",
         "ValueString": "You"
       }
-	]
+	],
+    "DropshedDimension": {
+        "Width": 123,
+        "Length": 123
+      }
 }
