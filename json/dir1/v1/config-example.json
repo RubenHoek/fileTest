@@ -35,6 +35,10 @@
       {
         "Name": "Hi",
         "ValueString": "You"
+      },
+      {
+        "Name": "Something added",
+        "ValueString": "For you"
       }
 	]
 }
